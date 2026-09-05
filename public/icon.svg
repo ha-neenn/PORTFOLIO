@@ -1,0 +1,39 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pinkBg" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF5F7" />
+      <stop offset="100%" stop-color="#FCE7EC" />
+    </linearGradient>
+    <linearGradient id="pinkBgDark" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D1F25" />
+      <stop offset="100%" stop-color="#1F1519" />
+    </linearGradient>
+    <linearGradient id="roseDot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EB7792" />
+      <stop offset="100%" stop-color="#CF5170" />
+    </linearGradient>
+  </defs>
+  <style>
+    .card-bg { fill: url(#pinkBg); stroke: #F3CCD6; stroke-width: 3; }
+    .letter-h { fill: #2E1B24; }
+    .dot-mark { fill: url(#roseDot); }
+    @media (prefers-color-scheme: dark) {
+      .card-bg { fill: url(#pinkBgDark); stroke: #543340; stroke-width: 3; }
+      .letter-h { fill: #FDF2F5; }
+      .dot-mark { fill: url(#roseDot); }
+    }
+  </style>
+
+  <!-- Soft rounded badge with pastel pink border -->
+  <rect class="card-bg" x="4" y="4" width="172" height="172" rx="44" />
+
+  <!-- Minimalist, elegant Serif H -->
+  <!-- Left stem: x 48 to 68, Right stem: x 98 to 118, Crossbar: y 83 to 95 -->
+  <g transform="translate(7, 2)">
+    <path class="letter-h" d="
+      M 40 48 L 76 48 L 76 56 L 65 56 L 65 83 L 101 83 L 101 56 L 90 56 L 90 48 L 126 48 L 126 56 L 115 56 L 115 122 L 126 122 L 126 130 L 90 130 L 90 122 L 101 122 L 101 93 L 65 93 L 65 122 L 76 122 L 76 130 L 40 130 L 40 122 L 51 122 L 51 56 L 40 56 Z
+    " />
+    <!-- Signature Rose Dot -->
+    <circle class="dot-mark" cx="137" cy="125" r="8.5" />
+  </g>
+</svg>

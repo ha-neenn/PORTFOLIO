@@ -1,0 +1,33 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Keep npm as the repository package manager
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Next.js build output
+.next/
+out/
+
+# Production build artifacts
+build/
+dist/
+
+# OS and editor files
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.local
+*.tsbuildinfo
